@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALS.Printify.Net", "ALS.Printify.Net\ALS.Printify.Net.csproj", "{1FEEA4E2-EEA7-4EED-8930-87EE5F39C9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALS.Printify.Tests", "ALS.Printify.Tests\ALS.Printify.Tests.csproj", "{CDBA97B0-105C-49C0-8735-E1F639130D33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FEEA4E2-EEA7-4EED-8930-87EE5F39C9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEEA4E2-EEA7-4EED-8930-87EE5F39C9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEEA4E2-EEA7-4EED-8930-87EE5F39C9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEEA4E2-EEA7-4EED-8930-87EE5F39C9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBA97B0-105C-49C0-8735-E1F639130D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBA97B0-105C-49C0-8735-E1F639130D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBA97B0-105C-49C0-8735-E1F639130D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBA97B0-105C-49C0-8735-E1F639130D33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A036782-D324-4F70-A366-E1587F90FE64}
+	EndGlobalSection
+EndGlobal

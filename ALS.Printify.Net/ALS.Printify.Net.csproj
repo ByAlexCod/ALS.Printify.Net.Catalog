@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <SignAssembly>false</SignAssembly>
+    <Version>0.0.1</Version>
+    <PackageId>ALS.Printify.Net.Catalog</PackageId>
+    <Authors>Alexandre Spitz</Authors>
+    <Description>ALS.Printify.Net.Catalog is a package allowing you to consume the Catalog API of Printify.com.</Description>
+    <Product>ALS.Printify.Net</Product>
+    <Copyright>Alexandre Spitz</Copyright>
+    <PackageIcon>printify_png.png</PackageIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageTags>Printify, Catalog, API</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Push\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Users\Alexandre Spitz\Downloads\printify_png.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
